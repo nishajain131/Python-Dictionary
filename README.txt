@@ -1,2 +1,2 @@
 Dictionary.
-This repo contains program on dictionary data structure.
+This repo contains programs on dictionary data structure.
