@@ -1,1 +1,1 @@
-This repo contains programs on dictionary data structure.
+This repo contains basic python programs.
