@@ -31,3 +31,24 @@ Output:
 -2 3 0
 
 3 1 2'''
+
+n=int(input())
+q=[]
+a=[]
+for i in range(n):
+  q.append(input().split())
+for i in range(n):
+  for j in range(0,i+1):
+    a.append(q[i][j])
+  for j in range(i+1,n):
+    a.append("0")
+s=0
+for i in range(n):
+  for j in range(n):
+    if j!=n-1:
+      print(a[s],"",end="")
+    else:
+       print(a[s],end="")
+    s+=1
+  if i!=n-1:
+    print("")
